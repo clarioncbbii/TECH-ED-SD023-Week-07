@@ -1,0 +1,3 @@
+--! This file is a reminder to submit:
+-- Schema visualiser screenshot
+-- SQL queries from your editor on Supabase
