@@ -1,5 +1,5 @@
 import { Link } from "react-router";
 
-export default function Recipes() {
+export default function RecipeDetails() {
   return <></>;
 }

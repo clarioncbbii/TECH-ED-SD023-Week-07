@@ -1,12 +1,28 @@
 //TODO: Set up a routing system and import relevant components
 //*Note: I advise you have a separate component for your root route too ("/")
+import "./App.css";
+import { Routes, Route } from "react-router";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Form from "./components/Form";
+import Recipes from "./components/Recipes";
+import RecipeDetails from "./components/RecipeDetails";
 
 function App() {
   return (
     <>
-      <h1>HOME</h1>
+      <Header />
+      <Footer />
 
       {/* routing system */}
+      <Routes>
+        {/* static route for all 'add recipe' page */}
+        <Route element={<Form />} path={"/add-recipe"} />
+        {/* static route for 'all recipes page, w/ a nested dynamic route */}
+        <Route element={<Recipes />} path={"/all-recipes"}>
+          <Route element={<RecipeDetails />} path={":id"} />
+        </Route>
+      </Routes>
     </>
   );
 }

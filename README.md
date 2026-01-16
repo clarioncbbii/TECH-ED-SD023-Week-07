@@ -35,4 +35,4 @@ The following requirements were met:
 
 <!-- ============== REFERENCES ============== -->
 
-Favicon - Recipe book - <a href="https://www.flaticon.com/free-icons/cook" title="cook icons">Cook icons created by Freepik - Flaticon</a>
+N/A
