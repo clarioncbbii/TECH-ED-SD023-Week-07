@@ -1,17 +1,11 @@
 import { Link } from "react-router";
 
 export default function Recipes() {
-
-
-  
-
-
-
   return (
     <>
       <section>
         <div>
-<img src="" alt="" />
+          {/* <img src="" alt="" />
 
 
 
@@ -42,8 +36,7 @@ export default Snacks;
 
 
 
-
-
+ */}
         </div>
       </section>
     </>
