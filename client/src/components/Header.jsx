@@ -9,11 +9,13 @@ export default function Header() {
         </div>
         <h1>RECIPES</h1>
         {/* POTENTIALLY SPLIT THIS OUT INTO ITS OWN COMPONENT */}
-        <nav>
-          <Link to={"/"}>HOME</Link>
-          <Link to={"/all-recipes"}>ALL RECIPES</Link>
-          <Link to={"/add-recipe"}>ADD A NEW RECIPE</Link>
-        </nav>
+        <section className="nav">
+          <nav>
+            <Link to={"/"}>HOME</Link>
+            <Link to={"/all-recipes"}>ALL RECIPES</Link>
+            <Link to={"/add-recipe"}>ADD A NEW RECIPE</Link>
+          </nav>
+        </section>
       </header>
     </>
   );

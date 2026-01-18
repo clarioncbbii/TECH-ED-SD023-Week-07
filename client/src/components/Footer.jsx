@@ -27,13 +27,13 @@ export default function Footer() {
             className="fa fa-instagram"
             to={"https://www.instagram.com"}
           ></Link>
-        </section>
 
-        <Link
-          aria-label="Twitter logo"
-          className="fa fa-twitter"
-          to={"https://www.twitter.com"}
-        ></Link>
+          <Link
+            aria-label="Twitter logo"
+            className="fa fa-twitter"
+            to={"https://www.twitter.com"}
+          ></Link>
+        </section>
 
         <section className="creator">
           <Link to={"https://github.com/clarioncbbii"}>

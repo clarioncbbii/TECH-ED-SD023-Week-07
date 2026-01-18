@@ -1,5 +1,4 @@
 //TODO: Set up a form to collect users' data
-
 import { useState } from "react";
 
 export default function Form() {
@@ -27,7 +26,7 @@ export default function Form() {
     //-declare the headers (body) --> method, content type, body (and the body value is your state)
     fetch("http://localhost:8080/add-recipe", {
       method: "POST",
-      headers: {#?},
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(),
     });
   }
