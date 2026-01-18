@@ -24,7 +24,7 @@ export default function Form() {
     //here, we will send the form data to the server
     //-fetch the server POST route
     //-declare the headers (body) --> method, content type, body (and the body value is your state)
-    fetch("http://localhost:8080/add-recipe", {
+    fetch("https://chopandnyam-recipes-server.onrender.com/add-recipe", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(),

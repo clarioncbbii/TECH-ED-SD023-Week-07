@@ -47,4 +47,5 @@ My approach is always the same, week to week, get the big parts of the JS logic 
 
 <!-- ============== REFERENCES ============== -->
 
-N/A
+Inspiration - https://recipebook-web.netlify.app/
+Modal reference - https://www.geeksforgeeks.org/reactjs/how-to-use-modal-component-in-reactjs/
