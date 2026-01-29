@@ -27,7 +27,7 @@ export default function Form() {
     fetch("https://chopandnyam-recipes-server.onrender.com/add-recipe", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(),
+      body: JSON.stringify(formValues),
     });
   }
   return (
